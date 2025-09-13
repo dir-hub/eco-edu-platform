@@ -24,7 +24,11 @@ const App = () => {
   };
 
   const handleNavigate = (page) => {
-    navigate('/' + page);
+    if (page === 'logout') {
+      navigate('/');
+    } else {
+      navigate('/' + page);
+    }
   };
 
   return (
