@@ -47,7 +47,7 @@ const Login = ({ onLogin }) => {
               className={`w-full p-4 rounded-lg border-2 transition-all ${
                 selectedRole === 'student' 
                   ? 'border-green-500 bg-green-50' 
-                  : 'border-gray-200 hover:border-green-300'
+                  : 'border-gray-200 bg-white hover:border-green-300'
               }`}
             >
               <div className="text-left">
@@ -61,7 +61,7 @@ const Login = ({ onLogin }) => {
               className={`w-full p-4 rounded-lg border-2 transition-all ${
                 selectedRole === 'teacher' 
                   ? 'border-green-500 bg-green-50' 
-                  : 'border-gray-200 hover:border-green-300'
+                  : 'border-gray-200 bg-white hover:border-green-300'
               }`}
             >
               <div className="text-left">
