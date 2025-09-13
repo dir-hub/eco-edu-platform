@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path="/login" element={<Login onLogin={handleLogin} />} />
+        <Route path="/" element={<Login onLogin={handleLogin} />} />
         <Route path="/signup" element={<Signup onSignup={handleSignup} />} />
         <Route path="/student" element={<StudentDashboard onNavigate={handleNavigate} ecoPoints={ecoPoints} setEcoPoints={setEcoPoints} completedQuizzes={completedQuizzes} setCompletedQuizzes={setCompletedQuizzes} />} />
         <Route path="/teacher" element={<TeacherDashboard onNavigate={handleNavigate} />} />
