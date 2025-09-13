@@ -196,7 +196,7 @@ const StudentDashboard = ({
                 Leaderboard
               </button>
               <button
-                onClick={() => onNavigate("login")}
+                onClick={() => onNavigate("logout")}
                 className="bg-gray-800 hover:bg-black text-white px-4 py-2 rounded-lg"
               >
                 Logout
