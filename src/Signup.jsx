@@ -38,7 +38,7 @@ const Signup = ({ onSignup }) => {
               onClick={() => setRole('student')}
               className={`w-full p-4 rounded-lg border-2 transition-all ${role === 'student'
                   ? 'border-green-500 bg-green-50'
-                  : 'border-gray-200 hover:border-green-300'
+                  : 'border-gray-200 bg-white hover:border-green-300'
                 }`}
             >
               <div className="text-left">
@@ -50,7 +50,7 @@ const Signup = ({ onSignup }) => {
               onClick={() => setRole('teacher')}
               className={`w-full p-4 rounded-lg border-2 transition-all ${role === 'teacher'
                   ? 'border-green-500 bg-green-50'
-                  : 'border-gray-200 hover:border-green-300'
+                  : 'border-gray-200 bg-white hover:border-green-300'
                 }`}
             >
               <div className="text-left">
