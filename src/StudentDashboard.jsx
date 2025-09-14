@@ -144,7 +144,7 @@ const StudentDashboard = ({
                   <button
                     key={index}
                     onClick={() => handleAnswerSelect(index)}
-                    className={`w-full p-4 text-black text-left rounded-lg border-2 transition-all ${
+                    className={`w-full p-4 text-black bg-white text-left rounded-lg border-2 transition-all ${
                       selectedAnswer === index
                         ? "border-green-500 bg-green-50"
                         : "border-gray-200 hover:border-green-300"
