@@ -222,7 +222,7 @@ const StudentDashboard = ({
             )}
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white mb-[24px] rounded-lg shadow-lg p-6">
           <h2 className="text-xl text-black font-bold mb-4">
             🌍 Environmental Learning Modules
           </h2>
