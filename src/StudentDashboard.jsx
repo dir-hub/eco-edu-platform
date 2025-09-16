@@ -250,8 +250,8 @@ const StudentDashboard = ({
                 key={module.id}
                 className="border border-gray-400 rounded-lg p-4 hover:shadow-md transition-shadow"
               >
-                <div className="text-4xl mb-3">{module.icon}</div>
-                <h3 className="text-lg text-black font-semibold mb-2">
+                <div className="text-4xl text-center mb-3">{module.icon}</div>
+                <h3 className="text-lg text-center text-black font-semibold mb-2">
                   {module.title}
                 </h3>
 
