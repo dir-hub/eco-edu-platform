@@ -7,7 +7,7 @@ import {
 import PlasticWasteManagement from "./Modules/PlasticWasteManagement";
 import EnergyConservation from "./Modules/EnergyConservation";
 import WaterConservation from "./Modules/WaterConservation";
-
+import PunjabMap from "./Modules/PunjabMap";
 const StudentDashboard = ({
   onNavigate,
   ecoPoints,
@@ -276,6 +276,7 @@ const StudentDashboard = ({
             ))}
           </div>
         </div>
+        <PunjabMap />
       </div>
     </div>
   );
