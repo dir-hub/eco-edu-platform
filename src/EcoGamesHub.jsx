@@ -151,7 +151,7 @@ const EcoGamesHub = () => {
                     <button
                       key={index}
                       onClick={() => handleAnswerSelect(index)}
-                      className={`w-full p-3 text-black  text-left rounded-lg border-2 transition-all whitespace-normal ${
+                      className={`w-full p-3 text-black bg-white text-left rounded-lg border-2 transition-all whitespace-normal ${
                         selectedAnswer === index
                           ? 'border-green-500 bg-green-50'
                           : 'border-gray-200 hover:border-green-300'
@@ -182,3 +182,4 @@ const EcoGamesHub = () => {
 };
 
 export default EcoGamesHub;
+
