@@ -15,7 +15,7 @@ const PunjabMap = () => {
   };
 
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md max-w-6xl mx-auto">
+    <div className="p-4 mb-[24px] bg-white rounded-lg shadow-md max-w-6xl mx-auto">
       <h3 className="text-xl font-bold mb-4 text-center text-green-700">
         Explore Punjab Challenges
       </h3>
@@ -345,3 +345,4 @@ const PunjabMap = () => {
 };
 
 export default PunjabMap;
+
