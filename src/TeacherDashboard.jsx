@@ -39,6 +39,12 @@ const TeacherDashboard = ({ onNavigate }) => {
             <h1 className="text-2xl font-bold text-green-600">👩‍🏫 Teacher Dashboard</h1>
             <div className="flex items-center space-x-4">
               <button
+                onClick={() => onNavigate('student-analysis')}
+                className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg"
+              >
+                Student Analysis
+              </button>
+              <button
                 onClick={() => onNavigate('leaderboard')}
                 className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg"
               >
