@@ -8,6 +8,7 @@ import PlasticWasteManagement from "./Modules/PlasticWasteManagement";
 import EnergyConservation from "./Modules/EnergyConservation";
 import WaterConservation from "./Modules/WaterConservation";
 import PunjabMap from "./Modules/PunjabMap";
+import EcoGamesHub from "./EcoGamesHub";
 const StudentDashboard = ({
   onNavigate,
   ecoPoints,
@@ -277,6 +278,7 @@ const StudentDashboard = ({
           </div>
         </div>
         <PunjabMap />
+        <EcoGamesHub /> 
       </div>
     </div>
   );
