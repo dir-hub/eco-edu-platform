@@ -122,7 +122,7 @@ const EcoGamesHub = () => {
               <h3 className="text-xl font-bold text-green-600">{selectedGame ? selectedGame.title : 'Quiz'}</h3>
               <button
                 onClick={closeModal}
-                className="text-gray-500 hover:text-gray-700 text-xl"
+                className="text-gray-500 bg-white hover:text-gray-700 text-xl"
               >
                 ✕
               </button>
@@ -182,4 +182,5 @@ const EcoGamesHub = () => {
 };
 
 export default EcoGamesHub;
+
 
